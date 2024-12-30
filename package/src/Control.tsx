@@ -21,7 +21,7 @@ export const ControlButton = defineComponent({
   setup(props, { emit }) {
 
     watch(() => props.current, (val) => {
-        console.log(val);
+        // console.log(val);
     }, { immediate: true })
 
     return () => (
